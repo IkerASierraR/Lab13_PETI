@@ -1,0 +1,18 @@
+=== 1. Cada proyecto cita el objetivo al que responde ===
+  Proyectos sin objetivo en PF01: 0 · fichas sin objetivo: 0 de 13
+
+=== 2. Los duplicados fusionados no perdieron alcance ===
+  PR-03 absorbe C-05: «consulta de estado» en alcance o entregables → sí
+  PR-09 absorbe C-02: «registro de actividades de tratamiento» en alcance o entregables → sí
+
+=== 3. El TCO a 5 años incluye el costo operativo, no solo la inversión ===
+  Proyectos con TCO = solo inversión: 0 de 13
+  PR-02: costo 5 años de la alternativa B = TCO de la ficha → sí
+  PR-03: costo 5 años de la alternativa B = TCO de la ficha → sí
+  PR-08: costo 5 años de la alternativa B = TCO de la ficha → sí
+
+=== Otras comprobaciones de la lista 3.2 ===
+  Proyectos en el portafolio: 13 (mínimo 12) → sí
+  Casos de negocio: 3 · con «no hacer nada» cuantificado: 3
+
+RESULTADO: todas las comprobaciones pasan
