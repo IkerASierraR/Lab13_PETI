@@ -1,25 +1,25 @@
 === BALANCE DEL PORTAFOLIO PROPUESTO ===
   categoria  proyectos  inversion       tco  pct_inv  pct_tco
-     Crecer          4     185000  888000.0     29.6     28.4
-     Operar          7     306000 1490300.0     49.0     47.6
-Transformar          2     133000  749450.0     21.3     24.0
+     Crecer          3     237000 1099450.0     25.4     23.8
+     Operar          8     532000 2589450.0     57.0     56.1
+Transformar          2     165000  925000.0     17.7     20.0
 
 Contraste con las proporciones de referencia:
-  Crecer      :  28.4 % del TCO  (referencia 20–30 %)  → dentro del rango
-  Operar      :  47.6 % del TCO  (referencia 50–70 %)  → POR DEBAJO
-  Transformar :  24.0 % del TCO  (referencia 10–20 %)  → POR ENCIMA
+  Crecer      :  23.8 % del TCO  (referencia 20–30 %)  → dentro del rango
+  Operar      :  56.1 % del TCO  (referencia 50–70 %)  → dentro del rango
+  Transformar :  20.0 % del TCO  (referencia 10–20 %)  → dentro del rango
 
 === BALANCE ACTUAL DE LA ORGANIZACIÓN (presupuesto de TI, Sección 3.1) ===
-                      planificado  ejecutado  pct_plan  pct_ejec
-categoria                                                       
-Crecer / Transformar      59360.0   39241.64       8.0       6.2
-Operar                   682640.0  594658.24      92.0      93.8
-  Partida «Proyectos nuevos»: planificado S/ 59,360, ejecutado S/ 39,242 (-33.9 %)
+                      planificado   ejecutado  pct_plan  pct_ejec
+categoria                                                        
+Crecer / Transformar      99200.0   113753.77       8.0       9.9
+Operar                  1140800.0  1030973.58      92.0      90.1
+  Partida «Proyectos nuevos»: planificado S/ 99,200, ejecutado S/ 113,754 (+14.7 %)
 
 === CAMBIO DE BALANCE QUE PROPONE EL PLAN ===
-  Hoy     : Operar 93.8 % · Crecer + Transformar 6.2 % (ejecutado)
-  Propuesto: Operar 47.6 % · Crecer + Transformar 52.4 % (TCO del portafolio)
-→ El portafolio pasa de un presupuesto casi íntegramente operativo a dedicar cerca de la mitad
+  Hoy      : Operar 92.0 % · Crecer + Transformar 8.0 % (planificado)
+  Propuesto: Operar 56.1 % · Crecer + Transformar 43.9 % (TCO del portafolio)
+→ El portafolio pasa de un presupuesto casi íntegramente operativo a dedicar el 44 %
   del TCO a crecer y transformar. El PETI debe justificar ese cambio y su financiamiento.
 
 Gráfico: graficos/PF_balance.png
