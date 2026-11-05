@@ -1,0 +1,28 @@
+Supuesto: facturación anual ≈ S/ 68,703,704 · venta diaria ≈ S/ 188,229
+
+===============================================================================================
+PR-08
+                                         alternativa  inv_inicial  costo_5  beneficio_5  neto_5  retorno_pct
+                                    A. No hacer nada            0        0      -900000 -900000          NaN
+B. Migrar a la versión soportada del mismo proveedor       230000   780500      1100000  319500         40.9
+                 C. Reemplazar por otra solución ERP       380000   980000      1250000  270000         27.6
+→ Mayor beneficio neto a 5 años: B. Migrar a la versión soportada del mismo proveedor (S/ 319,500)
+→ Costo de la inacción a 5 años: S/ 900,000
+
+===============================================================================================
+PR-03
+                                                alternativa  inv_inicial  costo_5  beneficio_5  neto_5  retorno_pct
+                                           A. No hacer nada            0        0      -475000 -475000          NaN
+B. Rediseño móvil del portal existente + consulta de pedido       151000   488500       725000  236500         48.4
+                        C. Nueva plataforma de comercio B2B       260000   710000       875000  165000         23.2
+→ Mayor beneficio neto a 5 años: B. Rediseño móvil del portal existente + consulta de pedido (S/ 236,500)
+→ Costo de la inacción a 5 años: S/ 475,000
+
+===============================================================================================
+PR-02
+                                    alternativa  inv_inicial  costo_5  beneficio_5  neto_5  retorno_pct
+                               A. No hacer nada            0        0      -350000 -350000          NaN
+B. Plataforma de integración (iPaaS) en la nube       101000   459200       500000   40800          8.9
+  C. Desarrollo de APIs a medida sin plataforma       140000   415000       425000   10000          2.4
+→ Mayor beneficio neto a 5 años: B. Plataforma de integración (iPaaS) en la nube (S/ 40,800)
+→ Costo de la inacción a 5 años: S/ 350,000
