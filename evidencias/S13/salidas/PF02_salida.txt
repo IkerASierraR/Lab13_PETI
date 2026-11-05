@@ -1,40 +1,40 @@
 === LÍNEA BASE · GASTO REAL EN PROVEEDORES DE TI (pagos 2025) ===
-Pagos por «Servicio informático»: 1,429 comprobantes · 78 proveedores
-Monto pagado                     : S/ 2,237,079  (promedio S/ 1,565 por pago)
-Presupuesto de TI aprobado       : S/ 742,000
+Pagos por «Servicio informático»: 2,342 comprobantes · 60 proveedores
+Monto pagado                     : S/ 3,705,119  (promedio S/ 1,582 por pago)
+Presupuesto de TI aprobado       : S/ 1,240,000
 → El gasto en servicios informáticos es 3.0× el presupuesto de TI: parte del gasto de TI ocurre fuera del presupuesto del área. El costo operativo del TCO no puede estimarse solo con el presupuesto aprobado.
 
 === COSTO TOTAL DE PROPIEDAD A 5 AÑOS ===
-codigo  inv_inicial  costo_unico  costo_anual    tco_5  tco_min   tco_max  factor_tco_inv  pct_operativo incertidumbre
- PR-08       145000       230000     110100.0 780500.0 390200.0 1170800.0            5.38           70.5         ±50 %
- PR-03       110000       151000      67500.0 488500.0 317500.0  659500.0            4.44           69.1         ±35 %
- PR-02        78000       101000      71640.0 459200.0 275500.0  642900.0            5.89           78.0         ±40 %
- PR-01        55000        81000      41850.0 290250.0 203200.0  377300.0            5.28           72.1         ±30 %
- PR-07        62000        66000      32640.0 229200.0 171900.0  286500.0            3.70           71.2         ±25 %
- PR-04        34000        52000      25500.0 179500.0 125600.0  233400.0            5.28           71.0         ±30 %
- PR-06        28000        43000      22200.0 154000.0 115500.0  192500.0            5.50           72.1         ±25 %
- PR-13        26000        41000      18900.0 135500.0  94800.0  176200.0            5.21           69.7         ±30 %
- PR-12        22000        29000      17640.0 117200.0  87900.0  146500.0            5.33           75.3         ±25 %
- PR-09        24000        29000      14400.0 101000.0  80800.0  121200.0            4.21           71.3         ±20 %
- PR-10        19000        26000      11880.0  85400.0  64000.0  106800.0            4.49           69.6         ±25 %
- PR-05        15000        20000      12900.0  84500.0  67600.0  101400.0            5.63           76.3         ±20 %
- PR-11         6000         8000       3000.0  23000.0  19600.0   26400.0            3.83           65.2         ±15 %
+codigo  inv_inicial  costo_unico  costo_anual     tco_5  tco_min   tco_max  factor_tco_inv  pct_operativo incertidumbre
+ PR-08       210000       315000     151800.0 1074000.0 537000.0 1611000.0            5.11           70.7         ±50 %
+ PR-03       130000       178000      81900.0  587500.0 381900.0  793100.0            4.52           69.7         ±35 %
+ PR-02        95000       125000      86100.0  555500.0 333300.0  777700.0            5.85           77.5         ±40 %
+ PR-11        90000       108000      69900.0  457500.0 320200.0  594800.0            5.08           76.4         ±30 %
+ PR-04        85000       115000      54750.0  388750.0 233200.0  544200.0            4.57           70.4         ±40 %
+ PR-01        70000       103000      53300.0  369500.0 258600.0  480400.0            5.28           72.1         ±30 %
+ PR-09        65000        89000      49350.0  335750.0 235000.0  436500.0            5.17           73.5         ±30 %
+ PR-07        78000        83000      42960.0  297800.0 223400.0  372200.0            3.82           72.1         ±25 %
+ PR-06        30000        44000      23100.0  159500.0 119600.0  199400.0            5.32           72.4         ±25 %
+ PR-05        22000        29000      18840.0  123200.0  98600.0  147800.0            5.60           76.5         ±20 %
+ PR-13        24000        31000      17880.0  120400.0  90300.0  150500.0            5.02           74.3         ±25 %
+ PR-10        28000        34000      16800.0  118000.0  94400.0  141600.0            4.21           71.2         ±20 %
+ PR-12         7000         9000       3500.0   26500.0  22500.0   30500.0            3.79           66.0         ±15 %
 
-Inversión inicial total : S/ 624,000
-TCO total a 5 años      : S/ 3,127,750  (rango S/ 2,014,100 – S/ 4,241,400)
-Factor TCO/inversión    : 5.01×
+Inversión inicial total : S/ 934,000
+TCO total a 5 años      : S/ 4,613,900  (rango S/ 2,948,000 – S/ 6,279,700)
+Factor TCO/inversión    : 4.94×
 
-→ El TCO es 5.0 veces la inversión inicial. Presentar solo la inversión inicial ante la
-  gerencia subestima el compromiso en S/ 2,503,750, que se pagaría
+→ El TCO es 4.9 veces la inversión inicial. Presentar solo la inversión inicial ante la
+  gerencia subestima el compromiso en S/ 3,679,900, que se pagaría
   como gasto recurrente que nadie aprobó explícitamente.
-→ Costo operativo anual del portafolio en régimen: S/ 450,150, 61 % del presupuesto de TI actual.
+→ Costo operativo anual del portafolio en régimen: S/ 670,180, 54 % del presupuesto de TI actual.
 
 === PROYECTOS CON MAYOR PROPORCIÓN DE COSTO OPERATIVO ===
 codigo    tco_5  factor_tco_inv  pct_operativo
- PR-02 459200.0            5.89           78.0
- PR-05  84500.0            5.63           76.3
- PR-12 117200.0            5.33           75.3
- PR-01 290250.0            5.28           72.1
+ PR-02 555500.0            5.85           77.5
+ PR-05 123200.0            5.60           76.5
+ PR-11 457500.0            5.08           76.4
+ PR-13 120400.0            5.02           74.3
 → Estos comprometen el presupuesto recurrente durante años: exigen mayor escrutinio.
 
 === VERIFICACIÓN: el TCO incluye costo operativo ===

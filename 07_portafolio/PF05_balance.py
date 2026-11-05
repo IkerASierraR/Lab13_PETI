@@ -1,5 +1,5 @@
 # 07_portafolio/PF05_balance.py
-# Balance operar/crecer/transformar del portafolio y contraste con el presupuesto actual
+# Balance operar/crecer/transformar del portafolio y contraste con el presupuesto actual · COOPAC Frontera Sur
 import os
 import pandas as pd, matplotlib
 matplotlib.use("Agg")
@@ -39,9 +39,9 @@ print(f"  Partida «Proyectos nuevos»: planificado S/ {inv_plan:,.0f}, ejecutad
       f"({(inv_ejec/inv_plan-1)*100:+.1f} %)")
 op = bal.set_index("categoria").pct_tco.get("Operar", 0)
 print("\n=== CAMBIO DE BALANCE QUE PROPONE EL PLAN ===")
-print(f"  Hoy     : Operar {act.loc['Operar','pct_ejec']:.1f} % · Crecer + Transformar {100-act.loc['Operar','pct_ejec']:.1f} % (ejecutado)")
+print(f"  Hoy      : Operar {act.loc['Operar','pct_plan']:.1f} % · Crecer + Transformar {100-act.loc['Operar','pct_plan']:.1f} % (planificado)")
 print(f"  Propuesto: Operar {op:.1f} % · Crecer + Transformar {100-op:.1f} % (TCO del portafolio)")
-print("→ El portafolio pasa de un presupuesto casi íntegramente operativo a dedicar cerca de la mitad")
+print(f"→ El portafolio pasa de un presupuesto casi íntegramente operativo a dedicar el {100-op:.0f} %")
 print("  del TCO a crecer y transformar. El PETI debe justificar ese cambio y su financiamiento.")
 
 os.makedirs("../graficos", exist_ok=True)

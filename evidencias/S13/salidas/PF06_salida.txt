@@ -1,19 +1,19 @@
 === ORDEN TOPOLÓGICO (secuencia obligada) ===
-PR-02 → PR-06 → PR-07 → PR-08 → PR-10 → PR-11 → PR-01 → PR-03 → PR-04 → PR-05 → PR-09 → PR-12 → PR-13
+PR-02 → PR-06 → PR-07 → PR-08 → PR-11 → PR-12 → PR-01 → PR-03 → PR-04 → PR-05 → PR-09 → PR-10 → PR-13
 
 Oleadas (proyectos que pueden ejecutarse en paralelo):
-  Oleada 1: PR-02, PR-06, PR-07, PR-11
-  Oleada 2: PR-01, PR-08, PR-10, PR-12, PR-13
-  Oleada 3: PR-03, PR-04, PR-05, PR-09
+  Oleada 1: PR-02, PR-06, PR-07, PR-12
+  Oleada 2: PR-01, PR-08, PR-11, PR-13
+  Oleada 3: PR-03, PR-04, PR-05, PR-09, PR-10
 
 === PROYECTOS HABILITADORES (mayor grado de salida) ===
-  PR-02: habilita directamente 5 proyecto(s); en cadena 5: PR-03, PR-04, PR-05, PR-08, PR-13
-  PR-01: habilita directamente 4 proyecto(s); en cadena 4: PR-03, PR-04, PR-05, PR-09
-  PR-06: habilita directamente 2 proyecto(s); en cadena 2: PR-10, PR-12
+  PR-01: habilita directamente 5 proyecto(s); en cadena 5: PR-03, PR-04, PR-05, PR-09, PR-10
+  PR-02: habilita directamente 5 proyecto(s); en cadena 5: PR-03, PR-04, PR-05, PR-08, PR-09
+  PR-06: habilita directamente 2 proyecto(s); en cadena 2: PR-11, PR-13
   PR-07: habilita directamente 1 proyecto(s); en cadena 1: PR-08
-  PR-11: habilita directamente 1 proyecto(s); en cadena 5: PR-01, PR-03, PR-04, PR-05, PR-09
+  PR-12: habilita directamente 1 proyecto(s); en cadena 6: PR-01, PR-03, PR-04, PR-05, PR-09, PR-10
 
 === PROYECTOS SIN DEPENDENCIAS (pueden iniciar de inmediato) ===
-  PR-02, PR-06, PR-07, PR-11
+  PR-02, PR-06, PR-07, PR-12
 
 Gráfico: graficos/PF_dependencias.png

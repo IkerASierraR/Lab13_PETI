@@ -16,10 +16,11 @@ print(f"  Proyectos sin objetivo en PF01: {len(sin)} · fichas sin objetivo: {le
 ok &= sin.empty and not sin_ficha_obj and len(fichas) == len(p)
 
 print("\n=== 2. Los duplicados fusionados no perdieron alcance ===")
+CLAVE = {"C-04": "consulta de saldos", "C-12": "registro de actividades de tratamiento"}
 for _, r in p[p.fusiona.notna() & (p.fusiona.astype(str) != "")].iterrows():
     ficha = open(f"PF03_fichas/{r.codigo}.md", encoding="utf-8").read().lower()
-    clave = {"C-05": "consulta de estado", "C-02": "registro de actividades de tratamiento"}[r.fusiona]
-    en_alcance = clave in ficha.split("alcance incluido")[1].split("alcance excluido")[0] or \
+    clave = CLAVE[r.fusiona]
+    en_alcance = clave in ficha.split("| 7 | alcance incluido")[1].split("| 8 |")[0] or \
                  clave in ficha.split("| 9 | entregables")[1].split("| 10 |")[0]
     print(f"  {r.codigo} absorbe {r.fusiona}: «{clave}» en alcance o entregables → {'sí' if en_alcance else 'NO'}")
     ok &= en_alcance
@@ -39,7 +40,9 @@ print("\n=== Otras comprobaciones de la lista 3.2 ===")
 print(f"  Proyectos en el portafolio: {len(p)} (mínimo 12) → {'sí' if len(p) >= 12 else 'NO'}")
 n_casos = alt.proyecto.nunique()
 inaccion = alt[alt.alternativa.str.startswith("A.")]
+tres_mayores = list(tco.nlargest(3, "tco_5").codigo)
 print(f"  Casos de negocio: {n_casos} · con «no hacer nada» cuantificado: {(inaccion.beneficio_anual < 0).sum()}")
-ok &= len(p) >= 12 and n_casos == 3 and (inaccion.beneficio_anual < 0).all()
+print(f"  Los casos corresponden a los 3 proyectos de mayor TCO {tres_mayores} → {'sí' if set(alt.proyecto) == set(tres_mayores) else 'NO'}")
+ok &= len(p) >= 12 and n_casos == 3 and (inaccion.beneficio_anual < 0).all() and set(alt.proyecto) == set(tres_mayores)
 
 print("\nRESULTADO:", "todas las comprobaciones pasan" if ok else "HAY COMPROBACIONES QUE FALLAN")

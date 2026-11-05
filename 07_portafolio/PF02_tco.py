@@ -1,6 +1,6 @@
 # 07_portafolio/PF02_tco.py
-# Costo total de propiedad (TCO) a 5 años · Distribuidora Andina del Sur S.A.C.
-# Cifras en soles (S/), estimaciones de orden de magnitud con su margen de incertidumbre.
+# Costo total de propiedad (TCO) a 5 años · COOPAC Frontera Sur
+# Cifras en soles (S/): estimaciones de orden de magnitud con su margen de incertidumbre.
 import pandas as pd
 
 AÑOS = 5
@@ -21,19 +21,19 @@ print(f"→ El gasto en servicios informáticos es {ti.monto.sum()/presup.planif
 PROYECTOS = pd.DataFrame([
  # codigo, inversion_inicial, licencias_anual, infraestructura_anual, soporte_pct,
  # personal_anual, capacitacion_inicial, migracion, integracion, meses, incertidumbre_pct
- ("PR-01", 55000,  6000,  3600, .15, 24000,  6000, 12000,  8000,  6, 30),
- ("PR-02", 78000, 12000,  9600, .18, 36000,  8000,     0, 15000,  8, 40),
- ("PR-03",110000,  9600,  8400, .15, 33000, 13000,  6000, 22000, 10, 35),
- ("PR-04", 34000,  4800,  3600, .15, 12000,  4000,  5000,  9000,  5, 30),
- ("PR-05", 15000,  3600,  1800, .10,  6000,  3000,     0,  2000,  3, 20),
- ("PR-06", 28000,  3600,  2400, .15, 12000,  5000,  3000,  7000,  4, 25),
- ("PR-07", 62000,  7200,  6000, .12, 12000,  4000,     0,     0,  5, 25),
- ("PR-08",145000, 24000, 12000, .18, 48000, 20000, 35000, 30000, 12, 50),
- ("PR-09", 24000,     0,     0, .10, 12000,  5000,     0,     0,  4, 20),
- ("PR-10", 19000,  2400,  1200, .12,  6000,  3000,     0,  4000,  3, 25),
- ("PR-11",  6000,     0,     0, .00,  3000,  2000,     0,     0,  2, 15),
- ("PR-12", 22000,  3600,  2400, .12,  9000,  4000,     0,  3000,  3, 25),
- ("PR-13", 26000,  3600,  2400, .15,  9000,  5000,  4000,  6000,  4, 30),
+ ("PR-01",  70000,  8000,  4800, .15, 30000,  8000, 15000, 10000,  7, 30),
+ ("PR-02",  95000, 15000, 12000, .18, 42000, 10000,     0, 20000,  8, 40),
+ ("PR-03", 130000, 14400, 12000, .15, 36000, 15000,  8000, 25000, 10, 35),
+ ("PR-04",  85000, 12000,  6000, .15, 24000,  8000, 10000, 12000,  7, 40),
+ ("PR-05",  22000,  4800,  2400, .12,  9000,  4000,     0,  3000,  3, 20),
+ ("PR-06",  30000,  4200,  2400, .15, 12000,  5000,  3000,  6000,  4, 25),
+ ("PR-07",  78000,  9000,  9600, .12, 15000,  5000,     0,     0,  5, 25),
+ ("PR-08", 210000, 36000, 18000, .18, 60000, 25000, 45000, 35000, 14, 50),
+ ("PR-09",  65000, 12000,  3600, .15, 24000,  8000,  6000, 10000,  6, 30),
+ ("PR-10",  28000,     0,     0, .10, 14000,  6000,     0,     0,  4, 20),
+ ("PR-11",  90000, 14400,  6000, .15, 36000, 10000,     0,  8000,  8, 30),
+ ("PR-12",   7000,     0,     0, .00,  3500,  2000,     0,     0,  2, 15),
+ ("PR-13",  24000,  3600,  2400, .12,  9000,  4000,     0,  3000,  3, 25),
 ], columns=["codigo","inv_inicial","licencias","infra","soporte_pct","personal",
             "capacitacion","migracion","integracion","meses","incertidumbre_pct"])
 

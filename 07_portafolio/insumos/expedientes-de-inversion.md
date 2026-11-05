@@ -1,5 +1,5 @@
 <div align="center">
-  <strong>DISTRIBUIDORA ANDINA DEL SUR S.A.C.</strong><br>
+  <strong>COOPAC FRONTERA SUR</strong><br>
   <em>Documento del caso</em>
 </div>
 
@@ -9,10 +9,10 @@
 
 | | |
 |---|---|
-| **Organización** | DISTRIBUIDORA ANDINA DEL SUR S.A.C. |
+| **Organización** | COOPAC FRONTERA SUR |
 | **Documento** | Expedientes de las inversiones cerradas en el periodo |
 | **Entregado por** | Administración y Finanzas |
-| **Fecha de entrega** | 15 de julio de 2026 |
+| **Fecha de entrega** | 7 de marzo de 2026 |
 | **Clasificación** | Restringido |
 
 > Documento de una organización ficticia, elaborado para el curso. Cualquier parecido con una empresa real es coincidencia.
@@ -21,19 +21,46 @@
 
 ## Presupuesto de TI del periodo
 
-Detalle por partida en [`presupuesto_ti.csv`](presupuesto_ti.csv). Total aprobado. **S/ 742 000** (1.08 % de la facturación).
+Detalle por partida en [`presupuesto_ti.csv`](presupuesto_ti.csv). Total aprobado. **S/ 1 240 000** (2.9 % de gastos operativos de la facturación).
 
 ## Los tres expedientes
 
-### Expediente 1 · Sistema de respaldo
+### Expediente 1 · Videovigilancia
 
 | Campo | Contenido |
 |---|---|
 | Año | 2025 |
-| Responsable | Karla Condori Copaja |
-| Presupuesto aprobado | S/ 58 183.36 |
-| Ejecutado | S/ 75 883.88 |
-| Desviación | **+30.4 %** |
+| Responsable | Nelson Condori Salazar |
+| Presupuesto aprobado | S/ 161 321.34 |
+| Ejecutado | S/ 153 280.11 |
+| Desviación | **-5.0 %** |
+| Beneficio declarado en la solicitud | Disponibilidad del servicio |
+| ¿Se midió el beneficio después? | **No se midió** |
+| Documentos que la organización conserva | Solicitud, cotizaciones, orden de compra, factura |
+| Documentos que **no** conserva | Caso de negocio con alternativas, acta de aceptación, medición posterior |
+
+**Justificación transcrita de la solicitud original.**
+
+> «Lo solicitó el área usuaria por los problemas recurrentes que viene reportando.»
+
+**Lo que la organización responde.**
+
+| Pregunta | Respuesta |
+|---|---|
+| ¿Se evaluaron alternativas? | «Se comparó con una alternativa, verbalmente» |
+| ¿Quién aprobó la desviación presupuestal? | «Gerencia, verbalmente» |
+| ¿Se firmó un acta de aceptación? | «Se recibió conforme, sin acta» |
+| ¿Se midió si el beneficio se logró? | «No» |
+
+### Expediente 2 · Renovación de servidores
+
+| Campo | Contenido |
+|---|---|
+| Año | 2024 |
+| Responsable | Ana Torres Medina |
+| Presupuesto aprobado | S/ 116 107.29 |
+| Ejecutado | S/ 170 158.62 |
+| Desviación | **+46.6 %** |
 | Beneficio declarado en la solicitud | Ahorro en licencias |
 | ¿Se midió el beneficio después? | **No se midió** |
 | Documentos que la organización conserva | Solicitud, cotizaciones, orden de compra, factura |
@@ -41,26 +68,26 @@ Detalle por partida en [`presupuesto_ti.csv`](presupuesto_ti.csv). Total aprobad
 
 **Justificación transcrita de la solicitud original.**
 
-> «Lo solicitó el área usuaria por los problemas recurrentes que viene reportando.»
+> «Es necesario para no detener la operación. El equipo actual está al límite de su capacidad.»
 
 **Lo que la organización responde.**
 
 | Pregunta | Respuesta |
 |---|---|
-| ¿Se evaluaron alternativas? | «Se pidieron tres cotizaciones del mismo producto» |
-| ¿Quién aprobó la desviación presupuestal? | «No se tramitó una aprobación específica» |
-| ¿Se firmó un acta de aceptación? | «No» |
+| ¿Se evaluaron alternativas? | «Se comparó con una alternativa, verbalmente» |
+| ¿Quién aprobó la desviación presupuestal? | «Gerencia, verbalmente» |
+| ¿Se firmó un acta de aceptación? | «No recordamos» |
 | ¿Se midió si el beneficio se logró? | «No» |
 
-### Expediente 2 · Actualización de licencias
+### Expediente 3 · Sistema de respaldo
 
 | Campo | Contenido |
 |---|---|
 | Año | 2025 |
-| Responsable | Karla Huanca Copaja |
-| Presupuesto aprobado | S/ 203 209.60 |
-| Ejecutado | S/ 244 795.08 |
-| Desviación | **+20.5 %** |
+| Responsable | Marta Colque Apaza |
+| Presupuesto aprobado | S/ 193 409.68 |
+| Ejecutado | S/ 254 711.93 |
+| Desviación | **+31.7 %** |
 | Beneficio declarado en la solicitud | Cumplimiento normativo |
 | ¿Se midió el beneficio después? | **No se midió** |
 | Documentos que la organización conserva | Solicitud, cotizaciones, orden de compra, factura |
@@ -68,42 +95,15 @@ Detalle por partida en [`presupuesto_ti.csv`](presupuesto_ti.csv). Total aprobad
 
 **Justificación transcrita de la solicitud original.**
 
-> «Permitirá reducir el tiempo de atención y mejorar el servicio al cliente.»
-
-**Lo que la organización responde.**
-
-| Pregunta | Respuesta |
-|---|---|
-| ¿Se evaluaron alternativas? | «Se pidieron tres cotizaciones del mismo producto» |
-| ¿Quién aprobó la desviación presupuestal? | «Administración y Finanzas» |
-| ¿Se firmó un acta de aceptación? | «No» |
-| ¿Se midió si el beneficio se logró? | «No» |
-
-### Expediente 3 · Renovación de servidores
-
-| Campo | Contenido |
-|---|---|
-| Año | 2025 |
-| Responsable | Miguel Maquera Copaja |
-| Presupuesto aprobado | S/ 209 032.67 |
-| Ejecutado | S/ 243 535.98 |
-| Desviación | **+16.5 %** |
-| Beneficio declarado en la solicitud | Cumplimiento normativo |
-| ¿Se midió el beneficio después? | **No se midió** |
-| Documentos que la organización conserva | Solicitud, cotizaciones, orden de compra, factura |
-| Documentos que **no** conserva | Caso de negocio con alternativas, acta de aceptación, medición posterior |
-
-**Justificación transcrita de la solicitud original.**
-
-> «Lo solicitó el área usuaria por los problemas recurrentes que viene reportando.»
+> «Es necesario para no detener la operación. El equipo actual está al límite de su capacidad.»
 
 **Lo que la organización responde.**
 
 | Pregunta | Respuesta |
 |---|---|
 | ¿Se evaluaron alternativas? | «No. Se fue con el proveedor habitual» |
-| ¿Quién aprobó la desviación presupuestal? | «Gerencia, verbalmente» |
-| ¿Se firmó un acta de aceptación? | «No» |
+| ¿Quién aprobó la desviación presupuestal? | «Administración y Finanzas» |
+| ¿Se firmó un acta de aceptación? | «Se recibió conforme, sin acta» |
 | ¿Se midió si el beneficio se logró? | «No» |
 
 ## Marco de referencia
