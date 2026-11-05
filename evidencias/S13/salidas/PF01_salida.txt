@@ -1,0 +1,51 @@
+=== CONTROL DE ADMISIÓN ===
+Candidatos sin fuente admisible: 2 → se retiran: ['C-16', 'C-17']
+  C-16 Renovación de laptops de gerencia · fuente «Pedido de área usuaria» no es una de las cinco admisibles
+  C-17 Plataforma de criptoactivos para socios · fuente «Iniciativa del proveedor» no es una de las cinco admisibles
+Candidatos sin objetivo asociado: 2 → se retiran: ['C-16', 'C-17']
+
+=== DEPURACIÓN · FUSIÓN DE DUPLICADOS ===
+  C-04 → C-03: La consulta de saldos y del estado de crédito es un entregable de la banca móvil y web: mismo usuario (socio), misma plataforma y misma integración con el sistema central.
+  C-12 → C-11: El registro de actividades de tratamiento es el primer entregable del programa de cumplimiento de la Ley 29733; separarlo duplicaría responsable y presupuesto.
+
+Candidatos recibidos: 17 · retirados: 2 · fusionados: 2 · proyectos admitidos: 13
+
+codigo candidato                                                                                         nombre                         seccion_origen     objetivo   categoria
+ PR-01      C-01                                                            Gobierno del dato maestro de socios                    Sección 5.4.2 PT-01 OD-02, OD-03 Transformar
+ PR-02      C-02                                       Capa de integración con el sistema central y los canales                    Sección 5.4.2 PT-02 OD-01, OD-03 Transformar
+ PR-03      C-03 Banca móvil y web para socios (incluye consulta de saldos y estado de crédito en autoservicio) Sección 6.1.7 S-01; Sección 6.1.7 S-02        OD-01      Crecer
+ PR-04      C-05                                                   Evaluación y scoring crediticio automatizado                       Sección 3.5 E-03        OD-02      Crecer
+ PR-05      C-06                                                      Tablero de gestión de cartera y morosidad                    Sección 5.4.2 PT-04        OD-02      Crecer
+ PR-06      C-07                                                                         Mesa de servicio de TI                    Sección 4.3.5 DSS02        OD-04      Operar
+ PR-07      C-08                                            Continuidad de infraestructura y respaldo inmutable                    Sección 4.3.5 DSS04        OD-04      Operar
+ PR-08      C-09                                                  Modernización del sistema central cooperativo                       Sección 3.5 E-04        OD-04      Operar
+ PR-09      C-10                                     Prevención de lavado de activos y monitoreo de operaciones                          Sección 4.1.5        OD-05      Operar
+ PR-10      C-11  Programa de cumplimiento de datos personales (incluye registro de actividades de tratamiento)                          Sección 4.1.5        OD-05      Operar
+ PR-11      C-13                                                   Seguridad de la información y ciberseguridad                          Sección 4.1.5        OD-06      Operar
+ PR-12      C-14                                                                       Comité de gobierno de TI                    Sección 4.3.5 EDM01 OD-02, OD-04      Operar
+ PR-13      C-15                                                  Instrumentación de monitoreo y disponibilidad                          Sección 6.1.5        OD-04      Operar
+
+Por fuente:
+ fuente
+Brecha de arquitectura        3
+Brecha de capacidad           3
+Obligación normativa          3
+Estrategia FODA               2
+Brecha de servicio digital    1
+Brecha de línea base          1
+
+Por categoría:
+ categoria
+Operar         8
+Crecer         3
+Transformar    2
+
+=== COBERTURA DE OBJETIVOS (Sección 6.2) ===
+  OD-01 Ampliar la inclusión financiera con servicios digitales para los socios     2 proyecto(s): PR-02, PR-03
+  OD-02 Decidir con información confiable de socios y cartera                       4 proyecto(s): PR-01, PR-04, PR-05, PR-12
+  OD-03 Integrar el sistema central con los canales y las áreas                     2 proyecto(s): PR-01, PR-02
+  OD-04 Asegurar la continuidad y disponibilidad de los servicios financieros       5 proyecto(s): PR-06, PR-07, PR-08, PR-12, PR-13
+  OD-05 Cumplir la normativa de prevención de lavado de activos y de datos personales 2 proyecto(s): PR-09, PR-10
+  OD-06 Proteger la información de los socios y de la cooperativa                   1 proyecto(s): PR-11
+→ Todos los objetivos de la sección 6.2 tienen al menos un proyecto.
+→ Proyectos que citan un objetivo inexistente: 0

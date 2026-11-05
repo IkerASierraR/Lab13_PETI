@@ -1,0 +1,14 @@
+candidato,codigo,nombre,fuente,seccion_origen,objetivo,categoria,fusiona
+C-01,PR-01,Gobierno del dato maestro de socios,Brecha de arquitectura,Sección 5.4.2 PT-01,"OD-02, OD-03",Transformar,
+C-02,PR-02,Capa de integración con el sistema central y los canales,Brecha de arquitectura,Sección 5.4.2 PT-02,"OD-01, OD-03",Transformar,
+C-03,PR-03,Banca móvil y web para socios (incluye consulta de saldos y estado de crédito en autoservicio),Brecha de servicio digital,Sección 6.1.7 S-01; Sección 6.1.7 S-02,OD-01,Crecer,C-04
+C-05,PR-04,Evaluación y scoring crediticio automatizado,Estrategia FODA,Sección 3.5 E-03,OD-02,Crecer,
+C-06,PR-05,Tablero de gestión de cartera y morosidad,Brecha de arquitectura,Sección 5.4.2 PT-04,OD-02,Crecer,
+C-07,PR-06,Mesa de servicio de TI,Brecha de capacidad,Sección 4.3.5 DSS02,OD-04,Operar,
+C-08,PR-07,Continuidad de infraestructura y respaldo inmutable,Brecha de capacidad,Sección 4.3.5 DSS04,OD-04,Operar,
+C-09,PR-08,Modernización del sistema central cooperativo,Estrategia FODA,Sección 3.5 E-04,OD-04,Operar,
+C-10,PR-09,Prevención de lavado de activos y monitoreo de operaciones,Obligación normativa,Sección 4.1.5,OD-05,Operar,
+C-11,PR-10,Programa de cumplimiento de datos personales (incluye registro de actividades de tratamiento),Obligación normativa,Sección 4.1.5,OD-05,Operar,C-12
+C-13,PR-11,Seguridad de la información y ciberseguridad,Obligación normativa,Sección 4.1.5,OD-06,Operar,
+C-14,PR-12,Comité de gobierno de TI,Brecha de capacidad,Sección 4.3.5 EDM01,"OD-02, OD-04",Operar,
+C-15,PR-13,Instrumentación de monitoreo y disponibilidad,Brecha de línea base,Sección 6.1.5,OD-04,Operar,
